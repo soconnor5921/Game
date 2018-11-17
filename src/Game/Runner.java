@@ -31,6 +31,10 @@ public class Runner
                 System.out.println("You are now at coordinates X= " + Player1.getxLoc() + " Y= "+ Player1.getyLoc());
                 System.out.println(Map.printMap(newMap,Player1));
             }
+            else
+            {
+                System.out.println("Please stay in the playable area. Pick another direction");
+            }
         }
     }
 

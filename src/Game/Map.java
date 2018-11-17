@@ -18,9 +18,7 @@ public class Map
                 map[i][j] = new Room(i, j);
             }
         }
-        int a = (int)(Math.random()*map.length);
-        int b = (int)(Math.random()*map[a].length);
-        map[a][b] = new WinningRoom(a,b);
+        map[x-1][y-1] = new WinningRoom(x-1,y-1);
         return map;
     }
 

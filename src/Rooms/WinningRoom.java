@@ -20,5 +20,6 @@ public class WinningRoom extends Room
         x.setxLoc(this.xLoc);
         x.setyLoc(this.yLoc);
         System.out.println("You have won the game! Congratulations!");
+        Runner.gameOff();
     }
 }

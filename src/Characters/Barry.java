@@ -10,6 +10,6 @@ public class Barry extends FriendlyNpc
 
     public static void interaction()
     {
-        
+
     }
 }

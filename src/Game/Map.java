@@ -1,5 +1,7 @@
 package Game;
 
+import Characters.Barry;
+import Characters.FriendlyNpc;
 import Characters.Player;
 import Rooms.Room;
 import Rooms.VisitedRoom;
@@ -19,6 +21,7 @@ public class Map
             }
         }
         map[x-1][y-1] = new WinningRoom(x-1,y-1);
+        map[1][1].npcOccupant = new Barry();
         return map;
     }
 

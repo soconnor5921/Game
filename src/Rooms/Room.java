@@ -1,5 +1,6 @@
 package Rooms;
 
+import Characters.FriendlyNpc;
 import Characters.Player;
 
 import static Game.Runner.newMap;
@@ -7,6 +8,7 @@ import static Game.Runner.newMap;
 public class Room
 {
     Player occupant;
+    public static FriendlyNpc npcOccupant;
     int xLoc, yLoc;
 
     public Room(int x, int y)
